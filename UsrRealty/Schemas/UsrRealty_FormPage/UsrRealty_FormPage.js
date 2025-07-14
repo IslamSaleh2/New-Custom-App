@@ -221,7 +221,11 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"label": "$Resources.Strings.PDS_UsrComment_y47qrxa",
 					"labelPosition": "auto",
 					"control": "$PDS_UsrComment_y47qrxa",
-					"multiline": false
+					"multiline": false,
+					"visible": false,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": ""
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
